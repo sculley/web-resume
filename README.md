@@ -9,7 +9,7 @@ WebResume is a Go-based application designed to act as a dynamic home page and r
 The easiest way to get started with WebResume is to use the Docker image. This image is available on Docker Hub and can be pulled with the following command:
 
 ```bash
-docker pull sculley/webresume
+docker pull yelluc/webresume
 ```
 
 Once the image is pulled, you can run it with the following command:
