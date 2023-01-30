@@ -1,0 +1,96 @@
+title: "Sam Culley"
+full_name: "Sam Culley"
+github_profile: "https://github.com/sculley"
+home_page_subtitle: "I am a Senior DevOps Engineer who likes to code!"
+about_page_subtitle: "My name is Sam Culley and I'm a Senior DevOps engineer/Software Engineer. I live in Gloucester in the United Kingdom, and currently work at Novatiq Ltd. I love to code and I'm always looking for new ways to improve my skills."
+experience:
+  - company: "Novatiq"
+    url: "https://novatiq.com/"
+    role: "Senior DevOps Engineer"
+    start_date: "January 2020"
+    end_date: "Present"
+    accomplishments:
+      - "Managed the migration of Novatiq's legacy platform from container orchestration using Docker Compose to Kubernetes for multi-cloud (AWS, Azure, GCP, Baremetal) deployments."
+      - "Designed and implmented numerous Terraform modules to support the deployment of the Novatiq platform into AWS, Azure, GCP, and Baremetal environments."
+      - "Led the design and implementation of a new CI/CD pipeline strategy for the Novatiq platform to support multi-cloud deployments."
+      - "Worked with the development team to update legacy components to support Kubernetes deployments."
+      - "Rewrote the Novatiq platform's Terraform modules to support multi-cloud deployments."
+      - "Developed an internal self-service portal for the Novatiq platform to allow developers and QA to deploy Novatiq's platform into their own namespace in development Kubernetes clusters, eliminating the need for developers to request a deployment from the DevOps team."
+      - "Ensured that the Novatiq platform is delivered quickly and reliably to our customers, utilizing my skills in Kubernetes/Terraform and IaC."
+  - company: "Amazon"
+    url: "https://amazon.com/"
+    role: "Systems Engineer L2"
+    start_date: "September 2019"
+    end_date: "January 2020"
+    accomplishments:
+      - Designed & developed a serverless service to anonymize customers email addresses using a 3P marketing CRM tool with goal that the 3P would not have access to our customers UCI data. Using SES, SQS, SNS, DynamoDB in connection with Lambdas for the application written in Python. CloudWatch for metrics/logging. Deployed & managed using with CloudFormation.
+      - Lead a project migrating Jenkins Pipelines to CodePipelines using CodeBuild, CodeDeploy which required the development of custom actions using Lambdas & Step Functions to deploy application code to OpsWorks instances. Deployed & managed with CloudFormation.
+      - Design, Deployment & Management of services/applications running in AWS.
+      - Supporting teams with their design and management of applications and services inside AWS.
+      - Management/Support of Linux based systems in installed on EC2 in AWS.
+      - On-Call support Tier 1/2 infrastructure services & applications.
+  - company: "Amazon"
+    url: "https://amazon.com/"
+    role: "Systems Engineer"
+    start_date: "November 2015"
+    end_date: "September 2019"
+    accomplishments:
+      - Designed and implemented a physical and logical network & infrastructure for a fulfillment center capable of shipping 3 million items to customers a month. (Installation, Configuration of Cisco devices and associated infrastructure)
+      - Working with Development and Test teams to create fully automated CI/CD Pipelines using AWS and Jenkins.
+      - Designed and deployed a highly available/redundant Gitlab installation leveraging native AWS services (RDS, EFS, ElasticCache, S3) with metrics and dashboards for monitoring and alarming. Deployed & managed with CloudFormation.
+      - Designed & Deployed a serverless SFTP service using AWS Transfer for SFTP. Deployed & managed with Terraform
+      - Handled IT support for an FC with 150 users, managing and maintaining the equipment and devices.
+      - Migration of legacy applications & services to new solutions using AWS services.
+      - Assisted with creation and management of Dockerised applications running in Amazon ECS.
+      - Handling the management/maintenance and security of 400 Linux/Windows based servers.
+      - Managed multiple backend services (DNS, DHCP, EMAIL, FTP, FileSharing, LDAP)
+      - Developed solutions for monitoring and alarming for over 400 servers.
+      - Supported development teams with all infrastructure & system related issues.
+      - Providing training, workshops to development teams and mentored junior IT support and my fellow Engineers who joined the team.
+      - On-Call support Tier 1/2 infrastructure services & applications.
+  - company: "Amazon"
+    url: "https://amazon.com/"
+    role: "Junior System/Network Engineer"
+    start_date: "Febuary 2013"
+    end_date: "November 2015"
+    accomplishments:
+      - Using Ansible & Chef for installation, configuration & maintenance of on-premises and cloud-based servers.
+      - Installation, Configuration & Maintenance of all Cisco networking devices and network across 3 sites.
+      - Management of infrastructure services; Email, LDAP, DNS, FTP, Windows AD, Nagios, ELK
+      - Designed & deployed Nagios using GitOps to manage resources with automated deployments using Jenkins, along with tests to ensure a smooth CI/CD pipeline.
+      - Handled IT support for an FC with 100 users, managing and maintaining the equipment and devices.
+  - company: "Amazon"
+    url: "https://amazon.com/"
+    role: "IT Support"
+    start_date: "January 2011"
+    end_date: "Febuary 2013"
+    accomplishments:
+      - Management of all Windows desktops & printers.
+      - Providing IT support to FC users.
+      - Basic management of network devices.
+  - company: "Book Depository"
+    url: "https://bookdepository.com/"
+    role: "IT Support"
+    start_date: "January 2008"
+    end_date: "January 2011"
+    accomplishments:
+      - Management of all Windows desktops & printers.
+      - Providing IT support to FC users.
+      - Basic management of network devices.
+skills:
+  - Ansible
+  - AWS
+  - Azure
+  - Bash
+  - Docker
+  - GCP
+  - Git
+  - Go
+  - Helm
+  - Kubernetes
+  - Linux
+  - Python
+  - Terraform
+  - Windows
+certifications:
+  - "Certified Kubernetes Administrator (CKA)"

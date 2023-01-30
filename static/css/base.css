@@ -1,0 +1,41 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar-brand {
+  margin-right: 0%; /* override the default bootstrap value */
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  margin-top: 10px;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #9cb7be;
+  left: 25px;
+  width: 10px;
+  height: 10px;
+  z-index: 400;
+  margin-top: 12px;
+}

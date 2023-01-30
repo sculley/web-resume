@@ -1,0 +1,48 @@
+{{ define "content" }}
+
+<main>
+    <h1 style="color: pink;">Summary</h1>
+    <p class="fs-5">{{ .about_page_subtitle }}</p>
+
+    <hr class="mb-5">
+
+    <div class="row g-5">
+      <div class="col-md-8 mb-5">
+        <h2 style="color: pink;">Work Expirence</h4>
+        <ul class="timeline" style="font-size:large">
+          {{ range .experience }}
+          <li>
+            <h3 style="color: pink;"><a class="nav-link" href="{{ .URL }}">{{ .Company }}</a></h2>
+            <p>{{ .Role }}</p>
+            <p>{{ .StartDate }} - {{ .EndDate }}</p>
+            
+            <ul>
+              {{ range .Accomplishments }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h2 style="color: pink;">Skills & Tools</h2>
+        <ul>
+          {{ range .skills }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+
+        <hr class="mt-5 mb-5">
+
+        <h2 style="color: pink;">Certifications</h2>
+        <ul>
+          {{ range .certifications }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </main>
+{{ end }}
